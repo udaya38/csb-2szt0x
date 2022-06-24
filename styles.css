@@ -1,0 +1,24 @@
+.allRows,
+.pallete {
+  display: flex;
+}
+.allRows > div,
+.pallete > div {
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0.1rem;
+}
+
+.solution {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0.1rem;
+}
+
+.pallete {
+  cursor: pointer;
+}
